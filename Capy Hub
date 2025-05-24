@@ -1,5 +1,5 @@
-
-local WindUI = require("https://raw.githubusercontent.com/Footagesus/WindUI/refs/heads/main/src/init.lua")
+local WindUISource = game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/src/init.lua")
+local WindUI = loadstring(WindUISource)()
 
 -- Test
 
